@@ -3,4 +3,9 @@ function somar(a, b) {
   return console.log(soma);
 }
 
-let diminuição = () => {};
+let diminuição = (valor1, valor2) => {
+  let total = valor1 - valor2;
+  console.log(total);
+};
+
+diminuição(10, 5);
